@@ -1,0 +1,28 @@
+.breve__card {
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  background: #FFF9F2;
+  background-image: url("../img/oie_31191142N8YhTYbz.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 40%;
+  width: 100%;
+  border-radius: 24px;
+  padding-bottom: 2em;
+}
+
+.breve__card-2 {
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  background: #FFF9F2;
+  background-image: url("../img/oie_31191312HuaE4u8V.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 400px;
+  border-radius: 24px;
+  height: 40%;
+  width: 100%;
+  padding-bottom: 2em;
+}

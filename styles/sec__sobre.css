@@ -1,0 +1,129 @@
+.sec__sobre {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 7em;
+}
+
+.sec__pres-text {
+  font-family: 'Work Sans';
+  color: #403930;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.sec__pres-img {
+  width: 50px;
+}
+
+.sec__pres {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #FFDDBF;
+  border: 1px solid #FFDDBF;
+  width: 200px;
+  padding: 0em 0.5em;
+}
+
+.sec__about-text {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 125%;
+  font-family: 'Eczar';
+  font-style: norma;
+  color: #403930;
+  width: 700px;
+  letter-spacing: 0.02em;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+.sec__1 {
+  display: flex;
+  background: #FFEED9;
+  
+}
+
+.sec__1-img {
+  width: 800px;
+  padding-left: 10%;
+}
+
+.sec__button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4E5E80;
+  border: 4px solid #4E5E80;
+  border-radius: 16px;
+  padding: 24px 40px;
+  gap: 12px;
+  transition: 250ms;
+}
+
+.sec__button1-text {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #F3F2FF;
+  padding-right: 0.3em;
+  transition: 250ms;
+}
+
+.sec__about-button {
+  display: flex;
+  gap: 16px;
+}
+
+.sec__button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #4D5566;
+  border-radius: 16px;
+  padding: 24px 40px;
+  gap: 12px;
+  transition: 250ms;
+}
+
+.sec__button2-text {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #4D5566;
+  transition: 250ms;
+}
+
+.sec__button1-link {
+  text-decoration: none;
+  color: #F3F2FF;
+  transition: 250ms;
+}
+
+.sec__button2-link {
+  text-decoration: none;
+  color: #4D5566;
+}
+
+.sec__button1-text:hover {
+  padding: 0.2em;
+  font-size: 28px;
+  transition: 250ms;
+}
+
+.sec__button2-text:hover {
+  padding: 0.2em;
+  font-size: 28px;
+  transition: 250ms;
+}
+
+

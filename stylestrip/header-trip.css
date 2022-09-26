@@ -1,0 +1,31 @@
+.header-trip {
+  background: #ffe5cc;
+  padding-bottom: 3em;
+}
+
+
+
+.recent__card {
+  height: 300px;
+}
+
+.recent__card-title {
+  font-size: 30px;
+}
+
+.recent__card-text {
+  font-size: 18px;
+  padding-right: 35em;
+}
+
+.recent__card-2 {
+  height: 300px;
+}
+
+.breve__card {
+  height: 300px;
+}
+
+.breve__card-2 {
+  height: 300px;
+}

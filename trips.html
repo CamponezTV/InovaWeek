@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>NerdsEveryWhere</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="stylestrip/header-trip.css">
+</head>
+
+<body>
+  <header class="header-trip">
+    <ul class="header__list">
+      <li class="header__item"><a href="index.html" class="header__link">Home</a></li>
+      <li class="header__item"><a href="trips.html" class="header__link">Viagens</a></li>
+      <li class="header__item"><a href="nerds.html" class="header__link">Nerds</a></li>
+      <li class="header__item"><a href="sobre.html" class="header__link">Sobre</a></li>
+    </ul>
+  </header>
+
+  <section class="sec__recent">
+
+    <div class="recent">
+      <h2 class="recent__title">Viagens Recentes</h2>
+    </div>
+
+    <div class="recent__card">
+      <div class="recent__card-texts">
+        <h2 class="recent__card-title">Ubatuba</h2>
+        <p class="recent__card-text"> Sendo a primeira e única viagem com todos os nerds, essa é de fato considerada por
+          eles a melhor viagem das suas vidas.</p>
+        <a href="#" class="recent__card-link">Ver sobre</a>
+      </div>
+    </div>
+
+    <span class="span-card"></span>
+
+    <div class="recent__card-2">
+      <div class="recent__card-texts">
+        <h2 class="recent__card-title">São Paulo 1.0</h2>
+        <p class="recent__card-text"> A primeira viagem do grupo "Nerds Every Where", naquela época apenas Camponez,
+          Lori, Soca e Bibi fizeram parte da viagem.</p>
+        <a href="#" class="recent__card-link">Ver sobre</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec__recent">
+
+    <div class="recent">
+      <h2 class="recent__title">Próximas Viagens</h2>
+    </div>
+
+    <div class="breve__card">
+      <div class="recent__card-texts">
+        <h2 class="recent__card-title">Porto Alegre</h2>
+        <p class="recent__card-text"> A Última Viagem com todos os Nerds juntos de 2022 e a primeira em Porto Alegre, casa de Cereaw e Socarol. Uma viagem mais descontraída sem objetivo.</p>
+         <p class="recent__card-text"> 06/09/2022</p>
+        <a href="#" class="recent__card-link">Ver sobre</a>
+      </div>
+    </div>
+
+    <span class="span-card"></span>
+
+    <div class="breve__card-2">
+      <div class="recent__card-texts">
+        <h2 class="recent__card-title">São Paulo 2.0 / BGS </h2>
+        <p class="recent__card-text"> Mais uma Viagem para São Paulo com os Nerds incompletos, Socarol infelizmente não poderá participar dessa Viagem. Agora uma viagem totalmente voltada para BGS.</p>
+        <p class="recent__card-text"> 06/10/2022</p>
+        <a href="#" class="recent__card-link">Ver sobre</a>
+      </div>
+    </div>
+  </section>
+</body>
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-joda/1.11.0/js-joda.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script> const swiper = new Swiper('.swiper', {
+    spaceBetween: -100,
+    slidesPerView: 2,
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+    },
+  });</script>
+
+</html>

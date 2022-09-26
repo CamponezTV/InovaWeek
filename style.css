@@ -1,0 +1,17 @@
+@import url("styles/header.css");
+@import url("styles/sec__sobre.css");
+@import url("styles/sec__recent.css");
+@import url("styles/sec__nerds.css");
+@import url("styles/swiper.css");
+@import url("styles/breve__card.css");
+@import url("styles/footer.css");
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("fonts/Helvetica.ttf");
+}
+
+@font-face {
+  font-family: "HelveticaBold";
+  src: url("fonts/Helvetica-Bold.ttf");
+}

@@ -1,0 +1,28 @@
+.header {
+  background: #FFEED9;
+  padding-bottom: 5em;
+}
+
+.header__list {
+   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2em 0em 0em 6.5em;
+  font-family: "Work Sans";
+}
+
+.header__link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #594F43;
+  padding-right: 2em;
+  transition: 250ms;
+}
+
+.header__link:hover { 
+  font-size: 24px;
+  color: #b5a38c;
+  transition: 250ms;
+  
+}

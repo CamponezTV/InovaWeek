@@ -1,0 +1,49 @@
+.swiper {
+  width: 1300px;
+  height: 400px;
+  display: flex;
+  justify-items: center;
+  align-content: center;
+}
+.swiper-buttons {
+}
+
+.swiper-button-next, .swiper-button-prev {
+color: #594F43 !important;
+fill: #594F43 !important;
+stroke: #594F43 !important;
+
+}
+
+.swiper-slide {
+}
+
+.swiper-wrapper {
+  text-align: center;
+  padding-left: 150px;
+}
+
+.swiper-text {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #594F43;
+  width: 400px;
+}
+
+.swiper-title {
+padding: 1em 0em;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+color: #594F43;
+  width: 400px;
+}
+
+.swiper-text span {
+  font-weight: bold;
+}
